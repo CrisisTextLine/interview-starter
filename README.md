@@ -12,15 +12,23 @@ The repository has setups for different languages on different branches. To use 
 2. View a list of possible branches to use with `git branch -r`
 3. Run `git checkout` followed by the git branch selected from step 2
 
-## JavaScript
+## JavaScript & Jest
 
-You are on the branch for JavaScript development (via Node.js) configured [eslint](https://eslint.org) for linting.
+You are on the branch for JavaScript development (via Node.js) configured with [jest](https://jestjs.io) for testing, and [eslint](https://eslint.org) for linting.
 
 Setup steps:
 
 1. Install [Node.js](https://nodejs.org)
 2. Make sure you have `npm` installed (this should be bundled with Node.js). You can check by running `npm -v`
 3. Run `npm install`
+
+## Testing
+
+This branch has [jest](https://jestjs.io) set up for automated tests. To run the tests in watch mode run:
+
+```sh
+npm test
+```
 
 ## Linting
 
