@@ -1,1 +1,1 @@
-exports.hello = "World";
+exports.answer = 42;

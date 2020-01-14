@@ -22,6 +22,14 @@ Setup steps:
 2. Make sure you have `npm` installed (this should be bundled with Node.js). You can check by running `npm -v`
 3. Run `npm install`
 
+## Testing
+
+This branch is configured with [mocha](https://mochajs.org) as a test runner and [chai](https://www.chaijs.com) for assertions. The tests can be run in watch mode with:
+
+```sh
+npm test
+```
+
 ## Linting
 
 If you install an eslint plugin in your editor you should be able to see lint errors inline next to you code. You can also run eslint from the command line with `npm run lint`

@@ -2,11 +2,14 @@
   "name": "interview-starter",
   "main": "index.js",
   "scripts": {
-    "test": "test",
+    "test": "mocha --watch",
     "lint": "eslint ."
   },
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^6.8.0"
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-mocha": "^6.2.2",
+    "mocha": "^7.0.0"
   }
 }
