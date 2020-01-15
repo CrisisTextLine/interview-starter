@@ -36,3 +36,11 @@ Or run once with `pipenv run pytest`
 ## Linting
 
 When you install dependencies it should install [pylint](https://www.pylint.org) to statically analyse the code for certain issues. You should be able to install an editor plugin to see pylint errors inline. Additionally, it can be run from the command line with `pipenv run pylint *.py`
+
+## Running the Code
+
+To run the code as a script, run:
+
+```sh
+pipenv run python main.py
+```
