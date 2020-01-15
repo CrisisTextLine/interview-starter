@@ -1,10 +1,10 @@
 {
   "name": "interview-starter",
-  "main": "index.ts",
   "scripts": {
     "test": "jest --watch",
     "lint": "eslint . --ext .js,.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "ts-node": "ts-node"
   },
   "license": "ISC",
   "devDependencies": {
@@ -19,6 +19,7 @@
     "eslint": "^6.8.0",
     "eslint-plugin-jest": "^23.6.0",
     "jest": "^24.9.0",
+    "ts-node": "^8.6.2",
     "typescript": "^3.7.4"
   }
 }

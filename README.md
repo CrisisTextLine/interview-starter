@@ -43,3 +43,11 @@ You should be able to configure your editor to show TypeScript type errors inlin
 ```sh
 npm run -s typecheck
 ```
+
+## Running as a script
+
+To run the index.ts file as a script run:
+
+```sh
+npm run -s ts-node index.ts
+```
