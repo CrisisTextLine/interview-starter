@@ -12,6 +12,8 @@ The repository has setups for different languages on different branches. To use 
 2. View a list of possible branches to use with `git branch -r`
 3. Run `git checkout` followed by the git branch selected from step 2
 
+---
+
 ## JavaScript
 
 You are on the branch for JavaScript development (via Node.js) configured [eslint](https://eslint.org) for linting.
@@ -32,4 +34,4 @@ npm test
 
 ## Linting
 
-If you install an eslint plugin in your editor you should be able to see lint errors inline next to you code. You can also run eslint from the command line with `npm run lint`
+If you install an eslint plugin in your editor you should be able to see lint errors inline next to you code. You can also run eslint from the command line with `npm run -s lint`
