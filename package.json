@@ -1,14 +1,24 @@
 {
   "name": "interview-starter",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "jest --watch",
-    "lint": "eslint ."
+    "lint": "eslint . --ext .js,.ts",
+    "typecheck": "tsc --noEmit"
   },
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-typescript": "^7.8.3",
+    "@types/jest": "^24.9.0",
+    "@types/node": "^13.1.7",
+    "@typescript-eslint/eslint-plugin": "^2.16.0",
+    "@typescript-eslint/parser": "^2.16.0",
+    "babel-jest": "^24.9.0",
     "eslint": "^6.8.0",
     "eslint-plugin-jest": "^23.6.0",
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "typescript": "^3.7.4"
   }
 }

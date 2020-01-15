@@ -14,9 +14,9 @@ The repository has setups for different languages on different branches. To use 
 
 ---
 
-## JavaScript & Jest
+## TypeScript & Jest
 
-You are on the branch for JavaScript development (via Node.js) configured with [jest](https://jestjs.io) for testing, and [eslint](https://eslint.org) for linting.
+You are on the branch for TypeScript development configured with [jest](https://jestjs.io) for testing, and [eslint](https://eslint.org) for linting.
 
 Setup steps:
 
@@ -35,3 +35,11 @@ npm test
 ## Linting
 
 If you install an eslint plugin in your editor you should be able to see lint errors inline next to you code. You can also run eslint from the command line with `npm run -s lint`
+
+## TypeChecking
+
+You should be able to configure your editor to show TypeScript type errors inline. Alternatively, you can run the type checker from the command line with:
+
+```sh
+npm run -s typecheck
+```
