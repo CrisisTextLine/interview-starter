@@ -16,7 +16,7 @@ The repository has setups for different languages on different branches. To use 
 
 ## PHP
 
-You are on the branch for PHP development configured with [phpstan](https://github.com/phpstan/phpstan) for linting.
+You are on the branch for PHP development configured with [phpunit](https://phpunit.de/index.html) for testing and [phpstan](https://github.com/phpstan/phpstan) for linting.
 
 Installation:
 
@@ -24,12 +24,22 @@ Installation:
 2. [Install composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-macos)
 3. Run `composer install`
 
+## Testing
+
+This branch is configured with [phpunit](https://phpunit.de/index.html) for automated testing. This can be run in watch mode with:
+
+```sh
+composer test
+```
+
+Or run once with `composer phpunit`
+
 ## Linting
 
 When you install dependencies it should install [phpstan](https://github.com/phpstan/phpstan) to statically analyse the code for certain issues. You should be able to install an editor plugin to see phpstan errors inline. Additionally, it can be run from the command line with:
 
 ```sh
-vendor/bin/phpstan analyse src --level 0
+composer phpstan -- --level 0
 ```
 
 Where the `--level` flag represents the strictness from the minimum (0) to the maximum (8)
