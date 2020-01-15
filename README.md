@@ -11,3 +11,33 @@ The repository has setups for different languages on different branches. To use 
 1. Clone this repo
 2. View a list of possible branches to use with `git branch -r`
 3. Run `git checkout` followed by the git branch selected from step 2
+
+---
+
+## PHP
+
+You are on the branch for PHP development configured with [phpstan](https://github.com/phpstan/phpstan) for linting.
+
+Installation:
+
+1. Install php (on mac with homebrew it can be installed with `brew install php`)
+2. [Install composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-macos)
+3. Run `composer install`
+
+## Linting
+
+When you install dependencies it should install [phpstan](https://github.com/phpstan/phpstan) to statically analyse the code for certain issues. You should be able to install an editor plugin to see phpstan errors inline. Additionally, it can be run from the command line with:
+
+```sh
+vendor/bin/phpstan analyse src --level 0
+```
+
+Where the `--level` flag represents the strictness from the minimum (0) to the maximum (8)
+
+## Running the Code
+
+To run the code as a script, run:
+
+```sh
+php src/Code.php
+```
