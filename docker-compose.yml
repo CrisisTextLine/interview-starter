@@ -1,0 +1,9 @@
+version: "3"
+services:
+  # Configuration for running a dev environment
+  ctl-dev:
+    build:
+      context: .
+    command: sleep infinity
+    volumes:
+      - .:/usr/src/app

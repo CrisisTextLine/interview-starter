@@ -1,0 +1,16 @@
+{
+  "name": "ctl-dev",
+  "context": "..",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "ctl-dev",
+  "workspaceFolder": "/usr/src/app",
+
+  // Use 'settings' to set *default* container specific settings.json values on container create.
+  // You can edit these settings after create using File > Preferences > Settings > Remote.
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+
+  // Add the IDs of extensions you want installed when the container is created in the array below.
+  "extensions": ["ms-python.python", "VisualStudioExptTeam.vscodeintellicode"]
+}
