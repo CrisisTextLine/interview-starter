@@ -38,3 +38,7 @@ For PHP development, checkout the branch `php/phpunit`
 For python development using a local environment configured with [pipenv](https://pipenv.pypa.io/en/latest), checkout `python3/pytest`.
 
 If you have any issues with that, or just don't want to deal with [python environment management](https://xkcd.com/1987), we also have a containerized development environment with docker setup that can be found on branch `python3-docker/pytest`.
+
+### Java
+
+For Java development with JUnit and Ant, checkout the `java/junit-ant` branch
