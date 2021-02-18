@@ -1,12 +1,12 @@
 {
     "require-dev": {
-        "phpstan/phpstan": "^0.12.5",
+        "phpstan/phpstan": "^0.12.77",
         "phpunit/phpunit": "^8.5",
-        "spatie/phpunit-watcher": "^1.22"
+        "spatie/phpunit-watcher": "^1.23"
     },
     "scripts": {
         "test": "vendor/bin/phpunit-watcher watch tests",
         "phpunit": "vendor/bin/phpunit tests",
-        "phpstan": "vendor/bin/phpstan analyse src tests"
+        "phpstan": "vendor/bin/phpstan analyse"
     }
 }
